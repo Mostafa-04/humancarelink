@@ -14,7 +14,7 @@ import {
 
 // Mets ici une vraie photo (dossier /public). Si le fichier est absent,
 // un fond de repli aux couleurs de la marque s'affiche automatiquement.
-const ABOUT_IMAGE = "/about.jpg";
+const ABOUT_IMAGE = "/hc.png";
 
 const values = [
   {
@@ -146,7 +146,7 @@ export default function About() {
                   loading="lazy"
                   onError={() => setImageFailed(true)}
                   className={`h-full w-full object-cover transition-transform duration-[1800ms] ease-out motion-reduce:transition-none ${
-                    inView ? "scale-100" : "scale-125"
+                    inView ? "scale-75" : "scale-100"
                   }`}
                 />
               )}
