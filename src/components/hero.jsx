@@ -60,7 +60,7 @@ export default function Hero() {
     <section
       id="accueil"
       aria-labelledby="hero-title"
-      className="relative overflow-hidden bg-[#faf9f7]"
+      className="relative overflow-hidden bg-[#faf9f7] py-5 sm:py-10 lg:py-0"
     >
       {/* ------------------------------ Texte ------------------------------ */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-16 sm:px-8 sm:py-20 lg:flex lg:min-h-[680px] lg:items-center lg:px-12 lg:py-28">
